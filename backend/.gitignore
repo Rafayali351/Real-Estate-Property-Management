@@ -1,0 +1,11 @@
+bin/
+obj/
+logs/
+appsettings.Development.json
+wwwroot/uploads/*
+!wwwroot/uploads/.gitkeep
+!wwwroot/uploads/properties/.gitkeep
+!wwwroot/uploads/agents/.gitkeep
+*.user
+*.suo
+.vs/

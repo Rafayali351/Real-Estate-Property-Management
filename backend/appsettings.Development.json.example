@@ -1,0 +1,45 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DELL;Database=RealEstateDb;Trusted_Connection=True;TrustServerCertificate=True;"
+  },
+  "Jwt": {
+    "Secret": "RealEstateLuxurySuperSecretKeyForJwtTokenAuth2026_MustBeLongEnough!",
+    "Issuer": "RealEstateApi",
+    "Audience": "RealEstateClient",
+    "ExpiryDays": 7
+  },
+  "Otp": {
+    "HashSecret": "RealEstateLuxuryHmacSha256OtpHashSecretKey2026_SecureKey",
+    "ExpiryMinutes": 2,
+    "ResendCooldownSeconds": 15
+  },
+  "Smtp": {
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "Username": "your_email@gmail.com",
+    "Password": "your_16_digit_google_app_password",
+    "FromEmail": "your_email@gmail.com",
+    "FromName": "REAL ESTATE Luxury Concierge"
+  },
+  "Twilio": {
+    "AccountSid": "",
+    "AuthToken": "",
+    "FromNumber": ""
+  },
+  "AdminSeed": {
+    "FullName": "System Administrator",
+    "Email": "admin@realestate.com",
+    "Phone": "+923001234567",
+    "Password": "Admin@Password123!"
+  },
+  "Cors": {
+    "AllowedOrigins": [
+      "http://localhost:3000",
+      "http://127.0.0.1:3000"
+    ]
+  },
+  "App": {
+    "FrontendUrl": "http://localhost:3000",
+    "PublicApiUrl": "http://localhost:5000"
+  }
+}
